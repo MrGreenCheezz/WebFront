@@ -1,0 +1,22 @@
+.HeaderOfPage{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.AdresText{
+    text-align: left;
+}
+.AdresContainer{
+ min-width: 50%;
+}
+.ContactsContainer{
+    min-width: 50%;
+}
+.MainContainerOfInfo{
+    display: flex;
+}
+.InfoContent{
+    text-align: left;
+    padding-left: 25px;
+}

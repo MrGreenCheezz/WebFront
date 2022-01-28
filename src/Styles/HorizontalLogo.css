@@ -1,0 +1,33 @@
+.HorizontalAppBar{
+ display: block;
+ width: 100%;
+ 
+}
+.HorizontalLogo{
+flex:1;
+
+}
+.GradientElement{
+    background-image: linear-gradient(to bottom, #058505 1%, rgb(255, 255, 255) 50%), 
+    linear-gradient(to top, #058505 1%, rgb(255, 255, 255) 50%);
+    background-size: 100% 75px;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 75px;
+}
+
+.SmallLogoIcon{
+    height: 48px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.LogoText{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+	
+}
