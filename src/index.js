@@ -34,8 +34,8 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App/>}>
-          <Route path="info" element={<InfoRouteComponent/>}/>
-          <Route path="main" element={<MainPageComponent/>}/>
+          <Route path="info" element={<InfoRouteComponent/>}/>  
+          <Route path="" element={<MainPageComponent/>}/>      
           <Route path="products" element={<ProductsShowcaseComponent/>}/>
         </Route>
       </Routes>

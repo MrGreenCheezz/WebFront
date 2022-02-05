@@ -8,8 +8,7 @@ flex:1;
 
 }
 .GradientElement{
-    background-image: linear-gradient(to bottom, #058505 1%, rgb(255, 255, 255) 50%), 
-    linear-gradient(to top, #058505 1%, rgb(255, 255, 255) 50%);
+    background-image: linear-gradient(to bottom, #058505 1%, rgb(223, 223, 223) 50%);
     background-size: 100% 75px;
     background-position: top;
     background-repeat: no-repeat;

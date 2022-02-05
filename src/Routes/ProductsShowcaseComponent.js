@@ -80,9 +80,9 @@ export class ProductsShowcaseComponent extends Component {
         <div className="ProductsMain">
           <div
             className="ProductTypeSelecter"
-            style={{ float: "left", paddingLeft: "35px", display: "flex", width: "auto" }}
+            style={{ float: "left", paddingLeft: "35px", display: "flex", width: "90%" }}
           >
-            <FormControl>
+            <FormControl style={{backgroundColor: "white"}}>
               <InputLabel id="Search-input">Тип продукции</InputLabel>
               <Select
                 value={this.state.ProductType}
@@ -91,6 +91,7 @@ export class ProductsShowcaseComponent extends Component {
                 autoWidth
                 style={{ minWidth: "200px" }}
                 id="Search-input"
+                
               >
                 <MenuItem value={""}>Все</MenuItem>
                 <MenuItem value={"Paint"}>Краска</MenuItem>
@@ -139,9 +140,9 @@ export class ProductsShowcaseComponent extends Component {
       return <div>
           <div
             className="ProductTypeSelecter"
-            style={{ float: "left", paddingLeft: "35px",display: "flex", width: "auto" }}
+            style={{ float: "left", paddingLeft: "35px",display: "flex", width: "90%" }}
           >
-            <FormControl>
+            <FormControl style={{backgroundColor: "white"}}>
               <InputLabel id="Search-input">Тип продукции</InputLabel>
               <Select
                 value={this.state.ProductType}
@@ -150,6 +151,7 @@ export class ProductsShowcaseComponent extends Component {
                 autoWidth
                 style={{ minWidth: "200px" }}
                 id="Search-input"
+                
               >
                 <MenuItem value={""}>Все</MenuItem>
                 <MenuItem value={"Paint"}>Краска</MenuItem>

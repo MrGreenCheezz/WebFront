@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { Tabs, Tab, AppBar, Box } from "@mui/material";
-import logo from "../Pictures/LogoIcon.png";
+import logo from "../Pictures/Logo.png";
 
 export class RouteBarComponent extends Component {
   constructor(props) {

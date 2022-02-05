@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import NewsComponent from "./NewsShowcase.js";
 
 export class MainPageComponent extends Component {
     render() {
         return (
-            <div>
-                <h1>Main page is gona be here!</h1>
+            <div className="MainPageComponentDiv">
+                <NewsComponent>
+
+                </NewsComponent>
             </div>
         )
     }
